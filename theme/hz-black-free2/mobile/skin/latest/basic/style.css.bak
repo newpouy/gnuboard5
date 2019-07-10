@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* SIR 지운아빠 */
+
+/* 최근게시물 스킨 (latest) */
+.lt {position:relative;margin:0 0 10px;padding:0 10px 15px;border-bottom:1px solid #ddd}
+.lt ul {margin:0 0 10px;padding:0;list-style:none}
+.lt li {color:silver;}
+.lt a {display:block;padding:5px 0;color:#000;text-decoration:none; color:silver;}
+.lt .lt_title {display:inline-block;padding:10px 0; border:1px solid silver; border-radius:30px;}
+.lt .lt_more {position:absolute;top:5px;right:10px}
+.lt .cnt_cmt {display:inline-block;margin:0 0 0 3px;font-weight:bold}

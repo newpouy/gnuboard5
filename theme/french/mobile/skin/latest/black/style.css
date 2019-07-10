@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+/* 새글 스킨 (latest) */
+.black_lt {position:relative;overflow:hidden}
+.black_lt .lat_title {display:inline-block;line-height:45px;font-size:1.2em;color:#fff}
+.black_lt .lat_title a {color:#fff;display:inline-block;position:relative}
+.black_lt ul:after {display:block;visibility:hidden;clear:both;content:""}
+.black_lt ul {}
+.black_lt li {width:100%;border-bottom:1px solid #373737;padding-bottom:15px;margin-bottom:15px}
+.black_lt li:after {display:block;visibility:hidden;clear:both;content:""}
+.black_lt li:first-child {border-top:1px solid #373737;padding-top:15px}
+.black_lt li:last-child {border-bottom:0}
+
+.black_lt li .black_lt_img {float:left;width:95px;height:95px}
+.black_lt li .black_lt_img img {width:100%;height:auto}
+
+.black_lt li .black_lt_wr {float:left;width:80%;margin-left:10px}
+.black_lt li .black_lt_wr a {font-size:1.2em;line-height:1.2em;font-weight:bold;color:#fff}
+.black_lt li .fa-heart {color:#ff0000}
+.black_lt li .fa-link {width:20px;height:20px;line-height:20px;background:#ceefd8;color:#099530;text-align:center;font-size:1em;border-radius:50px;margin-right:2px;vertical-align:text-bottom;font-weight:normal}
+.black_lt li .fa-lock {display:inline-block;width:20px;line-height:20px;font-size:1em;color:#8a8a8a;background:#e6e6e6;text-align:center;border-radius:50px;font-size:12px}
+.black_lt li .new_icon {display:inline-block;width:20px;line-height:20px;font-size:0.75em;color:#fff;background:#4877ff;text-align:center;border-radius:50px;vertical-align:baseline;margin:0 2px}
+.black_lt li .hot_icon {display:inline-block;width:20px;line-height:20px;font-size:1em;color:#fff;background:#e52955;text-align:center;border-radius:50px;vertical-align:baseline;margin-right:2px;font-weight:normal}
+.black_lt li .fa-caret-right {color:#bbb}
+
+.black_lt .lt_cmt {color:#fd6240;font-size:1.4em;font-weight:bold;line-height:16px;padding:0 5px;border-radius:3px;white-space:nowrap}
+.black_lt .black_lt_info {width:100%;font-size:1.2em;padding:10px 0 5px;margin-top:10px;color:#fff}
+.black_lt .black_lt_info .lt_nick, .black_lt .black_lt_info .sv_member {color:#fff}
+.black_lt .black_lt_info .lt_date {float:right;display:inline-block;margin-top:5px;color:#5d5d5d}
+
+
+@media (max-width:1800px){
+	.black_lt li .black_lt_wr {width:55%}
+}
+
+@media (max-width:800px){
+	.black_lt li .black_lt_wr {width:80%}
+}
+
+@media (max-width:580px){
+	.black_lt li .black_lt_wr {width:78%}
+}
+
+@media (max-width:535px){
+	.black_lt li .black_lt_wr {width:70%}
+}
+
+@media (max-width:400px){
+	.black_lt li .black_lt_wr {width:65%}
+}
+

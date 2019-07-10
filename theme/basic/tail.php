@@ -46,11 +46,35 @@ if (G5_IS_MOBILE) {
         
         $(function() {
             $("#top_btn").on("click", function() {
+                alert('hi')
                 $("html, body").animate({scrollTop:0}, '500');
                 return false;
             });
         });
         </script>
+    <button type="button" id="potenpang_btn"><i class="fa fa-arrow-up" aria-hidden="true"></i><span class="sound_only">상단으로</span></button>
+        <script>
+        
+        $(function() {
+            $("#potenpang_btn").on("click", function() {
+                alert('potenpang!!')
+                $('#hd_pops_potenpang').css('display','block')
+                return false;
+            });
+        });
+        </script>
+
+
+    <div id="hd_pops_potenpang" class="hd_pops" style="display:none;bottom:10px;right:120px">
+        <div class="hd_pops_con" style="width:300px;height:450px">
+            hi
+        </div>
+        <div class="hd_pops_footer">
+            <!-- <button class="hd_pops_reject hd_pops_1"><strong></strong>시간 동안 다시 열람하지 않습니다.</button> -->
+            <button class="hd_pops_close hd_pops_1">닫기</button>
+        </div>
+    </div>
+</div>                
 </div>
 
 <?php

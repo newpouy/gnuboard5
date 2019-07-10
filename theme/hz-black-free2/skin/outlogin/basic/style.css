@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* SIR 지운아빠 */
+
+/* 아웃로그인 스킨 */
+.ol {position:relative; top:-10px; right:0px; padding:10px 0; border-bottom:0px solid #000; background:transparent;}
+.ol h2 {margin:0;padding:0;width:1px;height:1px;font-size:0;line-height:0;overflow:hidden}
+.ol ul {margin:0;padding:0;list-style:none}
+
+.ol a.btn_admin {display:inline-block;padding:0px;height:23px;border:0px solid #e8180c;background:#0ebeff;color:#fff;text-decoration:none;line-height:2.15em;vertical-align:middle} /* 관리자 전용 버튼 */
+.ol a.btn_admin:focus, .ol a.btn_admin:hover {text-decoration:none}
+
+#ol_before {}
+#ol_before fieldset {position:relative}
+#ol_id {display:block;margin:0 0 5px !important;margin:0 0 3px;padding:0 5px;width:175px;height:22px;border:1px solid #e4eaec;background:#f7f7f7;line-height:22px}
+#ol_idlabel {position:absolute;top:6px;left:5px;color:#333;font-size:0.95em}
+#ol_pw {display:block;margin:0 0 5px !important;margin:0 0 3px;padding:0 5px;width:175px !important;height:22px;border:1px solid #e4eaec;background:#f7f7f7;vertical-align:top;line-height:22px}
+#ol_pwlabel {position:absolute;top:35px;left:5px;color:#333;font-size:0.95em}
+
+#ol_submit {position:absolute; top:0px; right:0px; display:inline-block;width:60px;height:52px;border:1px solid gray;background:#333;color:#fff;font-size:0.9em;font-weight:bold;vertical-align:top; cursor:pointer;}
+#ol_before a {letter-spacing:-0.15em}
+#ol_svc {position:relative; top:5px; width:100%;}
+#ol_svc li {float:left; width:33.3%; list-style:none;}
+#ol_svc li a {display:block;}
+#ol_svc li a:hover {color:silver; text-decoration:none;}
+#ol_svc li label {color:silver;}
+#ol_password_lost {display:inline-block;margin:0 0 0 5px}
+
+#ol_after {}
+#ol_after_hd {margin:0 0 3px; width:100%;}
+#ol_after_hd .btn_admin {margin-top:0px;text-align:center; display:block; padding:3px 0;}
+#ol_after_private {margin:0 0 3px;zoom:1}
+#ol_after_private:after {display:block;visibility:hidden;clear:both;content:""}
+#ol_after_private li {float:left; width:33.3%; border:1px dotted silver; box-sizing:border-box;}
+#ol_after_private a {display:block;padding-top:8px;height:37px;background:transparent;text-align:center}
+#ol_after_private a strong {display:block;padding-top:3px;color:#0ebeff;font-weight:bolder}
+#ol_after_private a:focus,
+#ol_after_private a:hover {text-decoration:none}
+#ol_after_private a:focus strong,
+#ol_after_private a:hover strong {text-decoration:none}
+#ol_after_memo {width:100%; height:100%; margin-right:0px; display:block; text-align:center;}
+#ol_after_pt {width:100%; height:100%; margin-right:0px; display:block; text-align:center;}
+#ol_after_scrap {width:100%; height:100%; margin-right:0px; display:block; text-align:center;}
+#ol_after_ft {text-align:justify}
+#ol_after_ft a {display:inline-block;width:100%;height:25px;background:rgba(0, 0, 0, 0.5);color:#fff;text-align:center;line-height:2.2em}
+#ol_after_ft a:focus, #ol_after_ft a:hover {text-decoration:none !important}
